@@ -1,0 +1,29 @@
+{
+	"travellersBoots":
+	{
+		"type": ["HERO"],
+		"slot" : "FEET",
+		"class": "RELIC",
+		"value": 10000,	
+		"text":
+		{
+			"name": "Traveller's Boots of Mobility",
+			"description": "Increases your movement on land",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "tboots.bmp",
+			"map": "tboots.def"
+		},
+		"bonuses":
+		[
+			{
+				"subtype" : 1,
+				"type" : "MOVEMENT",
+				"val" : 600,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	}
+}

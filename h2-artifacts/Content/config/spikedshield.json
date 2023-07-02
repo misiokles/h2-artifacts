@@ -1,0 +1,33 @@
+{
+	"spikedShield":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "RELIC",
+		"value": 10000,	
+		"text":
+		{
+			"name": "Spiked Shield",
+			"description": "Increases hero's attack and defence by 4 each.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "spikedshield.bmp",
+			"map": "spikedshield.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 0,
+				"val": 4
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 4
+			}
+		]
+	}
+}

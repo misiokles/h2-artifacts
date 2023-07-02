@@ -1,0 +1,33 @@
+{
+	"blackPearl":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value": 10000,	
+		"text":
+		{
+			"name": "Black Pearl",
+			"description": "Increases hero's power and knowledge by 4 each.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "bpearl.bmp",
+			"map": "blackpearl.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 2,
+				"val": 4
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 3,
+				"val": 4
+			}
+		]
+	}
+}

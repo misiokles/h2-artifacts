@@ -1,0 +1,33 @@
+{
+	"ultimateStaff":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "RELIC",
+		"value": 100000,	
+		"text":
+		{
+			"name": "Ultimate Staff",
+			"description": "Increases hero's power and knowledge by 12 each",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "ustaff44.bmp",
+			"map": "ustaff.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 2,
+				"val": 12
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 3,
+				"val": 12
+			}
+		]
+	}
+}

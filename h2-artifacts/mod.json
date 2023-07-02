@@ -1,0 +1,72 @@
+{
+	"name" : "H2 Artifacts mod",
+	"description" : "H2 artifacts",
+	"author" : "Phee",
+	"version" : "0.0.4",
+	"contact" : "slothlux@o2.pl",
+	"modType" : "Artifacts",
+	"artifacts" :
+	[
+		"config/ucrown.json",
+		"config/usword.json",
+		"config/ushield.json",
+		"config/ucloak.json",
+		"config/ustaff.json",	
+		"config/uwand.json",	
+		"config/ubook.json",	
+		"config/ggoose.json",
+		"config/dsword.json",
+		"config/dbp.json",
+		"config/sshield.json",
+		"config/spikedshield.json",
+		"config/spikedhelm.json",
+		"config/poweraxe.json",
+		"config/gauntlet.json",
+		"config/thundermace.json",
+		"config/gflail.json",
+		"config/defenderhelm.json",
+		"config/lightninghelm.json",
+		"config/compass.json",
+		"config/firecloak.json",
+		"config/icecloak.json",
+		"config/anecklace.json",
+		"config/wbroach.json",
+		"config/mring.json",
+		"config/cbracelet.json",
+		"config/bpearl.json",
+		"config/wpearl.json",
+		"config/minorscroll.json",
+		"config/majorscroll.json",
+		"config/superiorscroll.json",
+		"config/foremostscroll.json",
+		"config/astrolabe.json",
+		"config/nboots.json",
+		"config/tboots.json",
+		"config/telescope.json",
+		"config/powerring.json",
+		"config/holyhammer.json",
+		"config/swordbreaker.json",
+		"config/swordofanduran.json",
+		"config/breastplateofanduran.json",
+		"config/helmetofanduran.json",
+		"config/lightningrod.json",
+		"config/everhotrock.json",
+		"config/evercoldicicle.json",
+		"config/squill.json"
+	],
+	
+	"changelog" :
+    {
+//ultimate artifacts are powerfull so they need to be carry by two or more slots exept Ultimate Crown...
+//Ultimate Sword, Ultimate Shield, Ultimate Staff, Ultimate Wand need both hands
+//Ultimate Cloak require back and torso slots
+//Golden Goose requires all 5 MISCS slots
+//Gauntlet requires both rings slots
+//so as long blocking slots feature is not supported do not use other slot...so your AI enemy have this advantage until this time...;-)
+		"0.0.1" : ["first trial"],
+		"0.0.2" : ["all ultimate h2 artifacts not handling more than one slot to carry "],
+		"0.0.3" : ["first graphic improvements and more vivid colors"],
+		"0.0.4" : ["more artifacts"],
+		
+    }  
+}

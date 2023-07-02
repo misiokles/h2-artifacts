@@ -1,0 +1,28 @@
+{
+	"divineBreastplate":
+	{
+		"type": ["HERO"],
+		"slot" : "TORSO",
+		"class": "RELIC",
+		"value": 6000,	
+		"text":
+		{
+			"name": "Divine Breastplate",
+			"description": "Increases the hero's Defence by 6.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "dbp.bmp",
+			"map": "dbp.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 6
+			}
+		]
+	}
+}

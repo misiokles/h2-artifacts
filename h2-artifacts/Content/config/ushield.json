@@ -1,0 +1,33 @@
+{
+	"ultimateShield":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "RELIC",
+		"value": 100000,	
+		"text":
+		{
+			"name": "Ultimate Shield",
+			"description": "Increases hero's attack and defence by 12 each",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "ushield44.bmp",
+			"map": "ushield.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 0,
+				"val": 12
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 12
+			}			
+		]
+	}
+}

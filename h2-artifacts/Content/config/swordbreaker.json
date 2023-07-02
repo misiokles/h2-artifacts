@@ -1,0 +1,33 @@
+{
+	"swordBreaker":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "RELIC",
+		"value": 20000,	
+		"text":
+		{
+			"name": "Sword Braker",
+			"description": "Increases hero's attack by 2 and defence by 8.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "swordbreaker.bmp",
+			"map": "swordbreaker.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 0,
+				"val": 2
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 8
+			}
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"statesmansquill":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value": 10000,	
+		"text":
+		{
+			"name": "Statesman's Quill",
+			"description": "Reduces the cost of surrendering by 25% ",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "squill.bmp",
+			"map": "squill.def"
+		},
+		"bonuses" : [
+			{
+				"type" : "SURRENDER_DISCOUNT",
+				"val" : 25,
+				"valueType" : "BASE_NUMBER"
+			}
+		]
+	}
+}

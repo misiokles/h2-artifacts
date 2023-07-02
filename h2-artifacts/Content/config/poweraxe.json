@@ -1,0 +1,28 @@
+{
+	"powerAxe":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "MAJOR",
+		"value": 5000,	
+		"text":
+		{
+			"name": "Power Axe of Dominion",
+			"description": "Increases the hero's Attack by 4",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "poweraxe.bmp",
+			"map": "poweraxe.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 0,
+				"val": 4
+			}
+		]
+	}
+}

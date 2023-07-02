@@ -1,0 +1,28 @@
+{
+	"witchBroach":
+	{
+		"type": ["HERO"],
+		"slot" : "NECK",
+		"class": "RELIC",
+		"value": 7000,	
+		"text":
+		{
+			"name": "Witch's Broach of Magic",
+			"description": "Increases the hero's spell power by 6",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "wbroach.bmp",
+			"map": "wbroach.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 2,
+				"val": 6
+			}
+		]
+	}
+}

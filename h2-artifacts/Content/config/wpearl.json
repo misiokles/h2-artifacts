@@ -1,0 +1,33 @@
+{
+	"whitePearl":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value": 5000,	
+		"text":
+		{
+			"name": "White Pearl",
+			"description": "Increases hero's power and knowledge by 2 each",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "wpearl.bmp",
+			"map": "whitepearl.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 2,
+				"val": 2
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 3,
+				"val": 2
+			}
+		]
+	}
+}

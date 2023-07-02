@@ -1,0 +1,28 @@
+{
+	"caster'sBracelet":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_RING",
+		"class": "RELIC",
+		"value": 5000,	
+		"text":
+		{
+			"name": "Caster's Bracelet of Magic",
+			"description": "Increases the hero's spell power by 4.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "cbracelet.bmp",
+			"map": "cbracelet.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 2,
+				"val": 4
+			}
+		]
+	}
+}

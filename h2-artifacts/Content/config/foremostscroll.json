@@ -1,0 +1,28 @@
+{
+	"foremostScroll":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value": 15000,	
+		"text":
+		{
+			"name": "Foremost Scroll Of Knowledge",
+			"description": "Increases the hero's knowledge by 10.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "foremostscroll.bmp",
+			"map": "foremostscroll.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 3,
+				"val": 10
+			}
+		]
+	}
+}

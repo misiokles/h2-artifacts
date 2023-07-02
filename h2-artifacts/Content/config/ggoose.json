@@ -1,0 +1,29 @@
+{
+	"goldenGoose":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value": 100000,	
+		"text":
+		{
+			"name": "Golden Goose",
+			"description": "Generates 10000 gold daily.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "ggoose44.bmp",
+			"map": "ggoose.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "GENERATE_RESOURCE",
+				"subtype" : "resource.gold",
+				"val": 10000,
+				"valueType": "BASE_NUMBER"
+			}
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"giantFlail":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "MINOR",
+		"value": 3000,	
+		"text":
+		{
+			"name": "Giant Flail of Dominion",
+			"description": "Increases the hero's Attack by 2.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "gflail.bmp",
+			"map": "gflail.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 0,
+				"val": 2
+			}
+		]
+	}
+}

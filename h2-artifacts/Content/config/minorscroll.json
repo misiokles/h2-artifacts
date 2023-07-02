@@ -1,0 +1,28 @@
+{
+	"minorScroll":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value": 5000,	
+		"text":
+		{
+			"name": "Minor Scroll Of Knowledge",
+			"description": "Increases the hero's knowledge by 4.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "minorscroll.bmp",
+			"map": "minorscroll.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 3,
+				"val": 4
+			}
+		]
+	}
+}

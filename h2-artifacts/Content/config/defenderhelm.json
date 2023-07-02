@@ -1,0 +1,28 @@
+{
+	"defenderHelm":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "MINOR",
+		"value": 3000,	
+		"text":
+		{
+			"name": "Defender Helm of Protection",
+			"description": "Increases the hero's defence by 2.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "defenderhelm.bmp",
+			"map": "defenderhelm.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 2
+			}
+		]
+	}
+}

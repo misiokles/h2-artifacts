@@ -1,0 +1,33 @@
+{
+	"iceCloak":
+	{
+		"type": ["HERO"],
+		"slot" : "SHOULDERS",
+		"class": "RELIC",
+		"value": 7000,	
+		"text":
+		{
+			"name": "Ice Cloak",
+			"description": "Halves damage from ice spells.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "icecloak.bmp",
+			"map": "icecloak.def"
+		},
+		"bonuses":
+		[
+			{
+			"type": "MORE_DAMAGE_FROM_SPELL",
+			"subtype" : "spell.iceBolt",
+			"val" : -50
+			},
+			{
+			"type": "MORE_DAMAGE_FROM_SPELL",
+			"subtype" : "spell.frostRing",
+			"val" : -50
+			}						
+		]
+	}
+}

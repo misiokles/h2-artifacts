@@ -1,0 +1,28 @@
+{
+	"armoredGauntlets":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_RING",
+		"class": "MAJOR",
+		"value": 5000,	
+		"text":
+		{
+			"name": "Armored Gauntlets of Protection",
+			"description": "Increases the hero's Defence by 4.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "gauntlet.bmp",
+			"map": "gauntlet.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 4
+			}
+		]
+	}
+}

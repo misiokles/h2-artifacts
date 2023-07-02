@@ -1,0 +1,33 @@
+{
+	"spikedHelm":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "MAJOR",
+		"value": 5000,	
+		"text":
+		{
+			"name": "Spiked Helm",
+			"description": "Increases hero's attack and defence by 2 each.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "spikedhelm.bmp",
+			"map": "spikedhelm.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 0,
+				"val": 2
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 2
+			}
+		]
+	}
+}

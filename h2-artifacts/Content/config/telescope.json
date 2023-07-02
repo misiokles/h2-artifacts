@@ -1,0 +1,28 @@
+{
+	"telescope":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value": 5000,	
+		"text":
+		{
+			"name": "Telescope",
+			"description": "Increases hero's viewing range by 3 squares",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "telescope.bmp",
+			"map": "telescope.def"
+		},
+		"bonuses":
+		[
+			{
+				"type" : "SIGHT_RADIUS",
+				"val" : 3,
+				"valueType" : "ADDITIVE_VALUE"
+			}
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"breastplateofAnduran":
+	{
+		"type": ["HERO"],
+		"slot" : "TORSO",
+		"class": "RELIC",
+		"value": 20000,	
+		"text":
+		{
+			"name": "Breastplate of Anduran",
+			"description": "Increases the hero's Defence by 10.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "breastplateofanduran.bmp",
+			"map": "breastplateofanduran.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 10
+			}
+		]
+	}
+}

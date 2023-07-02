@@ -1,0 +1,28 @@
+{
+	"superiorScroll":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value": 12000,	
+		"text":
+		{
+			"name": "Superior Scroll Of Knowledge",
+			"description": "Increases the hero's knowledge by 8.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "superiorscroll.bmp",
+			"map": "superiorscroll.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 3,
+				"val": 8
+			}
+		]
+	}
+}

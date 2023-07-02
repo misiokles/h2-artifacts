@@ -1,0 +1,28 @@
+{
+	"ultimateWand":
+	{
+		"type": ["HERO"],
+		"slot" : "RIGHT_HAND",
+		"class": "RELIC",
+		"value": 100000,	
+		"text":
+		{
+			"name": "Ultimate Wand of Magic",
+			"description": "Increases the hero's spell power by 24",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "uwand44.bmp",
+			"map": "uwand.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 2,
+				"val": 24
+			}
+		]
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"ultimateBook":
+	{
+		"type": ["HERO"],
+		"slot" : "LEFT_HAND",
+		"class": "RELIC",
+		"value": 100000,	
+		"text":
+		{
+			"name": "Ultimate Book of Knowledge",
+			"description": "Increases the hero's knowledge by 24",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "ubook44.bmp",
+			"map": "ubook.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 3,
+				"val": 24
+			}
+		]
+	}
+}

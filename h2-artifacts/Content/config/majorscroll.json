@@ -1,0 +1,28 @@
+{
+	"majorScroll":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value": 8000,	
+		"text":
+		{
+			"name": "Major Scroll Of Knowledge",
+			"description": "Increases the hero's knowledge by 6.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "majorscroll.bmp",
+			"map": "majorscroll.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 3,
+				"val": 6
+			}
+		]
+	}
+}

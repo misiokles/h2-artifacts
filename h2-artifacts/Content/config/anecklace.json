@@ -1,0 +1,28 @@
+{
+	"arcaneNecklace":
+	{
+		"type": ["HERO"],
+		"slot" : "NECK",
+		"class": "RELIC",
+		"value": 8000,	
+		"text":
+		{
+			"name": "Arcane Necklace of Magic",
+			"description": "Increases the hero's spell power by 8.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "anecklace.bmp",
+			"map": "arcanenecklace.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 2,
+				"val": 8
+			}
+		]
+	}
+}

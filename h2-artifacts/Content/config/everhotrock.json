@@ -1,0 +1,43 @@
+{
+	"everhotRock":
+	{
+		"type": ["HERO"],
+		"slot" : "MISC",
+		"class": "RELIC",
+		"value": 10000,	
+		"text":
+		{
+			"name": "Everhot Rock",
+			"description": "Fire spells do 50% more damage.",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "everhotrock.bmp",
+			"map": "everhotrock.def"
+		},
+		"bonuses":
+		[
+			{"type": "SPECIFIC_SPELL_DAMAGE",
+				"subtype": "spell.landMine",
+				"val": 50			
+			},
+			{"type": "SPECIFIC_SPELL_DAMAGE",
+				"subtype": "spell.fireWall",
+				"val": 50			
+			},
+			{"type": "SPECIFIC_SPELL_DAMAGE",
+				"subtype": "spell.fireball",
+				"val": 50			
+			},
+			{"type": "SPECIFIC_SPELL_DAMAGE",
+				"subtype": "spell.inferno",
+				"val": 50			
+			},
+			{"type": "SPECIFIC_SPELL_DAMAGE",
+				"subtype": "spell.armageddon",
+				"val": 50			
+			}
+		]
+	}
+}

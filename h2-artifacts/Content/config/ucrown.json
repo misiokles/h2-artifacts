@@ -1,0 +1,43 @@
+{
+	"ultimateCrown":
+	{
+		"type": ["HERO"],
+		"slot" : "HEAD",
+		"class": "RELIC",
+		"value": 100000,	
+		"text":
+		{
+			"name": "Ultimate Crown",
+			"description": "Increases hero's all primary skills by 8 each",
+			"event": ""
+		},
+		"graphics":
+		{
+			"image": "ucrown44.bmp",
+			"map": "ucrown.def"
+		},
+		"bonuses":
+		[
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 0,
+				"val": 8
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 1,
+				"val": 8
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 2,
+				"val": 8
+			},
+			{
+				"type": "PRIMARY_SKILL",
+				"subtype": 3,
+				"val": 8
+			}
+		]
+	}
+}
