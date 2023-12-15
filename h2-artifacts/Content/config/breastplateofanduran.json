@@ -20,7 +20,7 @@
 		[
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 1,
+				"subtype": "defence",
 				"val": 10
 			}
 		]

@@ -20,12 +20,12 @@
 		[
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 2,
+				"subtype": "spellpower",
 				"val": 2
 			},
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 3,
+				"subtype": "knowledge",
 				"val": 2
 			}
 		]

@@ -1,5 +1,5 @@
 {
-	"swordBreaker":
+	"h2swordBreaker":
 	{
 		"type": ["HERO"],
 		"slot" : "RIGHT_HAND",
@@ -20,12 +20,12 @@
 		[
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 0,
+				"subtype": "attack",
 				"val": 2
 			},
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 1,
+				"subtype": "defence",
 				"val": 8
 			}
 		]

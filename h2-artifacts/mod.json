@@ -2,9 +2,13 @@
 	"name" : "H2 Artifacts mod",
 	"description" : "H2 artifacts",
 	"author" : "Phee",
-	"version" : "0.0.4",
+	"version" : "0.0.5",
 	"contact" : "slothlux@o2.pl",
 	"modType" : "Artifacts",
+	"compatibility" :
+	{
+		"min" : "1.4.0"
+	},
 	"artifacts" :
 	[
 		"config/ucrown.json",
@@ -67,6 +71,7 @@
 		"0.0.2" : ["all ultimate h2 artifacts not handling more than one slot to carry "],
 		"0.0.3" : ["first graphic improvements and more vivid colors"],
 		"0.0.4" : ["more artifacts"],
+		"0.0.5" : ["Update to vcmi-1.4 format"],
 		
     }  
 }

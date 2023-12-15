@@ -20,22 +20,22 @@
 		[
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 0,
+				"subtype": "attack",
 				"val": 8
 			},
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 1,
+				"subtype": "defence",
 				"val": 8
 			},
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 2,
+				"subtype": "spellpower",
 				"val": 8
 			},
 			{
 				"type": "PRIMARY_SKILL",
-				"subtype": 3,
+				"subtype": "knowledge",
 				"val": 8
 			}
 		]
