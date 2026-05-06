@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "gauntlet.bmp",
-			"map": "gauntlet.def"
+			"map": "gauntlet.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defense" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 4
 			}
-		]
+		}
 	}
 }

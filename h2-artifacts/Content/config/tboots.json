@@ -14,16 +14,18 @@
 		"graphics":
 		{
 			"image": "tboots.bmp",
-			"map": "tboots.def"
+			"map": "tboots.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"land" :
 			{
 				"subtype" : "heroMovementLand",
 				"type" : "MOVEMENT",
 				"val" : 600,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		]
+		}
 	}
 }

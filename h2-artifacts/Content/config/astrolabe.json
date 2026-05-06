@@ -14,16 +14,18 @@
 		"graphics":
 		{
 			"image": "astrolabe.bmp",
-			"map": "astrolabe.def"
+			"map": "astrolabe.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"land" :
 			{
 				"subtype" : "heroMovementLand",
 				"type" : "MOVEMENT",
 				"val" : 600,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		]
+		}
 	}
 }

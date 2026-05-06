@@ -14,35 +14,41 @@
 		"graphics":
 		{
 			"image": "firecloak.bmp",
-			"map": "firecloak.def"
+			"map": "firecloak.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"landmine" :
 			{
 			"type": "MORE_DAMAGE_FROM_SPELL",
 			"subtype" : "spell.landMine",
 			"val" : -50
-			},			
+			},	
+			"firewall" : 			
 			{
 			"type": "MORE_DAMAGE_FROM_SPELL",
 			"subtype" : "spell.fireWall",
 			"val" : -50
 			},
+			"fireball" :
 			{
 			"type": "MORE_DAMAGE_FROM_SPELL",
 			"subtype" : "spell.fireball",
 			"val" : -50
 			},
+			"inferno" :
 			{
 			"type": "MORE_DAMAGE_FROM_SPELL",
 			"subtype" : "spell.inferno",
 			"val" : -50
 			},
+			"armageddon" :
 			{
 			"type": "MORE_DAMAGE_FROM_SPELL",
 			"subtype" : "spell.armageddon",
 			"val" : -50
 			}	
-		]
+		}
 	}
 }

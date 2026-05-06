@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "hammer.bmp",
-			"map": "holyhammer.def"
+			"map": "holyhammer.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 10
 			}
-		]
+		}
 	}
 }

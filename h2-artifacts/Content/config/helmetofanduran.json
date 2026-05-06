@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "helmetofanduran.bmp",
-			"map": "helmetofanduran.def"
+			"map": "helmetofanduran.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellpower" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "spellpower",
 				"val": 10
 			}
-		]
+		}
 	}
 }

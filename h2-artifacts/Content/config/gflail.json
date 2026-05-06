@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "gflail.bmp",
-			"map": "gflail.def"
+			"map": "gflail.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 2
 			}
-		]
+		}
 	}
 }

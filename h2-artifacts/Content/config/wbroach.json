@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "wbroach.bmp",
-			"map": "wbroach.def"
+			"map": "wbroach.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellpower" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "spellpower",
 				"val": 6
 			}
-		]
+		}
 	}
 }

@@ -1,5 +1,5 @@
 {
-	"goldenGoose":
+	"h2goldenGoose":
 	{
 		"type": ["HERO"],
 		"slot" : "MISC",
@@ -14,16 +14,18 @@
 		"graphics":
 		{
 			"image": "ggoose44.bmp",
-			"map": "ggoose.def"
+			"map": "ggoose.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"gold" :
 			{
 				"type": "GENERATE_RESOURCE",
-				"subtype" : "resource.gold",
+				"subtype" : "gold",
 				"val": 10000,
 				"valueType": "BASE_NUMBER"
 			}
-		]
+		}
 	}
 }

@@ -14,14 +14,16 @@
 		"graphics":
 		{
 			"image": "pring.bmp",
-			"map": "powerring.def"
+			"map": "powerring.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"manaRegen" :
 			{
 				"type": "MANA_REGENERATION",
 				"val": 10
 			}
-		]
+		}
 	}
 }

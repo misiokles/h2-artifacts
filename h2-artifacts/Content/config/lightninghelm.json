@@ -14,30 +14,35 @@
 		"graphics":
 		{
 			"image": "lightninghelm.bmp",
-			"map": "lightninghelm.def"
+			"map": "lightninghelm.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[	
+		{	
+			"spell1" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.lightningBolt",
 				"val": 0
 			},
+			"spell2" :
 			{
 				"type": "SPELL",
 				"subtype" : "spell.chainLightning",
 				"val": 0
 			},
+			"lightningBolt" :
 			{
 			"type": "MORE_DAMAGE_FROM_SPELL",
 			"subtype" : "spell.lightningBolt",
 			"val" : -50
 			},
+			"chainLightning" :
 			{
 			"type": "MORE_DAMAGE_FROM_SPELL",
 			"subtype" : "spell.chainLightning",
 			"val" : -50
 			}				
-		]
+		}
 	}
 }

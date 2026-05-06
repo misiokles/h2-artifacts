@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "superiorscroll.bmp",
-			"map": "superiorscroll.def"
+			"map": "superiorscroll.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"knowledge" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "knowledge",
 				"val": 8
 			}
-		]
+		}
 	}
 }

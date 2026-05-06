@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "usword44.bmp",
-			"map": "usword.def"
+			"map": "usword.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 24
 			}
-		]
+		}
 	}
 }

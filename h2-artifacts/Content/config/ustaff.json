@@ -14,20 +14,23 @@
 		"graphics":
 		{
 			"image": "ustaff44.bmp",
-			"map": "ustaff.def"
+			"map": "ustaff.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellpower" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "spellpower",
 				"val": 12
 			},
+			"knowledge" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "knowledge",
 				"val": 12
 			}
-		]
+		}
 	}
 }

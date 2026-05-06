@@ -14,14 +14,16 @@
 		"graphics":
 		{
 			"image": "squill.bmp",
-			"map": "squill.def"
+			"map": "squill.def",
+			"scenarioBonus" : "blank.png"
 		},
-		"bonuses" : [
+		"bonuses" : {
+			"discount" :
 			{
 				"type" : "SURRENDER_DISCOUNT",
 				"val" : 25,
 				"valueType" : "BASE_NUMBER"
 			}
-		]
+		}
 	}
 }

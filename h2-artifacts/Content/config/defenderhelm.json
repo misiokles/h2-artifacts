@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "defenderhelm.bmp",
-			"map": "defenderhelm.def"
+			"map": "defenderhelm.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defense" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 2
 			}
-		]
+		}
 	}
 }

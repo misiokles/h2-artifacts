@@ -14,18 +14,21 @@
 		"graphics":
 		{
 			"image": "lightningrod.bmp",
-			"map": "lightningrod.def"
+			"map": "lightningrod.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"lightningBolt" :
 			{"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype": "spell.lightningBolt",
 				"val": 50			
 			},
+			"chainLightning" :
 			{"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype": "spell.chainLightning",
 				"val": 50			
 			}			
-		]
+		}
 	}
 }

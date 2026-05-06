@@ -14,30 +14,36 @@
 		"graphics":
 		{
 			"image": "everhotrock.bmp",
-			"map": "everhotrock.def"
+			"map": "everhotrock.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"landmine" :
 			{"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype": "spell.landMine",
 				"val": 50			
 			},
+			"firewall" :
 			{"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype": "spell.fireWall",
 				"val": 50			
 			},
+			"fireball" :
 			{"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype": "spell.fireball",
 				"val": 50			
 			},
+			"inferno" :
 			{"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype": "spell.inferno",
 				"val": 50			
 			},
+			"armageddon":
 			{"type": "SPECIFIC_SPELL_DAMAGE",
 				"subtype": "spell.armageddon",
 				"val": 50			
 			}
-		]
+		}
 	}
 }

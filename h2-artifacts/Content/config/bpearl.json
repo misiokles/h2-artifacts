@@ -14,20 +14,23 @@
 		"graphics":
 		{
 			"image": "bpearl.bmp",
-			"map": "blackpearl.def"
+			"map": "blackpearl.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellpower" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "spellpower",
 				"val": 4
 			},
+			"knowledge" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "knowledge",
 				"val": 4
 			}
-		]
+		}
 	}
 }

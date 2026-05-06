@@ -14,20 +14,23 @@
 		"graphics":
 		{
 			"image": "evercoldicicle.bmp",
-			"map": "evercoldicicle.def"
+			"map": "evercoldicicle.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"icebolt" : 
 			{
 			"type": "SPECIFIC_SPELL_DAMAGE",
 			"subtype": "spell.iceBolt",
 			"val": 50			
 			},
+			"frostring" :
 			{
 			"type": "SPECIFIC_SPELL_DAMAGE",
 			"subtype": "spell.frostRing",
 			"val": 50			
 			}
-		]
+		}
 	}
 }

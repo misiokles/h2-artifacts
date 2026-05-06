@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "anecklace.bmp",
-			"map": "arcanenecklace.def"
+			"map": "arcanenecklace.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellpower" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "spellpower",
 				"val": 8
 			}
-		]
+		}
 	}
 }

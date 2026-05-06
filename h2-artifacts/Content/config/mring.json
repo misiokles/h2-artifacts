@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "mring.bmp",
-			"map": "mring.def"
+			"map": "mring.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellpower" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "spellpower",
 				"val": 4
 			}
-		]
+		}
 	}
 }

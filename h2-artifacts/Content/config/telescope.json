@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "telescope.bmp",
-			"map": "telescope.def"
+			"map": "telescope.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"radius" :
 			{
 				"type" : "SIGHT_RADIUS",
 				"val" : 3,
 				"valueType" : "ADDITIVE_VALUE"
 			}
-		]
+		}
 	}
 }

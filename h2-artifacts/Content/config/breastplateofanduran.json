@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "breastplateofanduran.bmp",
-			"map": "breastplateofanduran.def"
+			"map": "breastplateofanduran.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"defence" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 10
 			}
-		]
+		}
 	}
 }

@@ -14,30 +14,35 @@
 		"graphics":
 		{
 			"image": "ucrown44.bmp",
-			"map": "ucrown.def"
+			"map": "ucrown.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 8
 			},
+			"defense" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 8
 			},
+			"spellpower" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "spellpower",
 				"val": 8
 			},
+			"knowledge" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "knowledge",
 				"val": 8
 			}
-		]
+		}
 	}
 }

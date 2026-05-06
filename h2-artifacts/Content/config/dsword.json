@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "dsword.bmp",
-			"map": "dsword.def"
+			"map": "dsword.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 6
 			}
-		]
+		}
 	}
 }

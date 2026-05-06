@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "uwand44.bmp",
-			"map": "uwand.def"
+			"map": "uwand.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
-			{
+		{
+"spellpower" :		
+		{
 				"type": "PRIMARY_SKILL",
 				"subtype": "spellpower",
 				"val": 24
 			}
-		]
+		}
 	}
 }

@@ -14,20 +14,23 @@
 		"graphics":
 		{
 			"image": "spikedshield.bmp",
-			"map": "spikedshield.def"
+			"map": "spikedshield.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"attack" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "attack",
 				"val": 4
 			},
+			"defence" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "defence",
 				"val": 4
 			}
-		]
+		}
 	}
 }

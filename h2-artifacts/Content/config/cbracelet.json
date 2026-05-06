@@ -14,15 +14,17 @@
 		"graphics":
 		{
 			"image": "cbracelet.bmp",
-			"map": "cbracelet.def"
+			"map": "cbracelet.def",
+			"scenarioBonus" : "blank.png"
 		},
 		"bonuses":
-		[
+		{
+			"spellpower" :
 			{
 				"type": "PRIMARY_SKILL",
 				"subtype": "spellpower",
 				"val": 4
 			}
-		]
+		}
 	}
 }
