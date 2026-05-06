@@ -1,34 +1,32 @@
 {
-	"lightningRod":
-	{
-		"type": ["HERO"],
+	"lightningRod" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
-		"class": "RELIC",
-		"value": 10000,	
-		"text":
-		{
-			"name": "Lightning Rod",
-			"description": "Lightning spells do 50% more damage.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 10000,
+		"text" : {
+			"name" : "Lightning Rod",
+			"description" : "Lightning spells do 50% more damage.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "lightningrod.bmp",
-			"map": "lightningrod.def",
+		"graphics" : {
+			"image" : "lightningrod.bmp",
+			"map" : "lightningrod.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"lightningBolt" :
-			{"type": "SPECIFIC_SPELL_DAMAGE",
-				"subtype": "spell.lightningBolt",
-				"val": 50			
+		"bonuses" : {
+			"lightningBolt" : {
+				"type" : "SPECIFIC_SPELL_DAMAGE",
+				"subtype" : "spell.lightningBolt",
+				"val" : 50
 			},
-			"chainLightning" :
-			{"type": "SPECIFIC_SPELL_DAMAGE",
-				"subtype": "spell.chainLightning",
-				"val": 50			
-			}			
+			"chainLightning" : {
+				"type" : "SPECIFIC_SPELL_DAMAGE",
+				"subtype" : "spell.chainLightning",
+				"val" : 50
+			}
 		}
 	}
 }

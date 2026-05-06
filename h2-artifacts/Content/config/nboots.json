@@ -1,30 +1,27 @@
 {
-	"nomadBoots":
-	{
-		"type": ["HERO"],
+	"nomadBoots" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "FEET",
-		"class": "RELIC",
-		"value": 10000,	
-		"text":
-		{
-			"name": "Nomad Boots of Mobility",
-			"description": "Increases your movement on land.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 10000,
+		"text" : {
+			"name" : "Nomad Boots of Mobility",
+			"description" : "Increases your movement on land.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "nboots.bmp",
-			"map": "nboots.def",
+		"graphics" : {
+			"image" : "nboots.bmp",
+			"map" : "nboots.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"land" :
-			{
+		"bonuses" : {
+			"land" : {
 				"subtype" : "heroMovementLand",
 				"type" : "MOVEMENT",
 				"val" : 600,
-				"valueType" : "ADDITIVE_VALUE"		
+				"valueType" : "ADDITIVE_VALUE"
 			}
 		}
 	}

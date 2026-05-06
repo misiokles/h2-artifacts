@@ -1,36 +1,32 @@
 {
-	"ultimateShield":
-	{
-		"type": ["HERO"],
+	"ultimateShield" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "LEFT_HAND",
-		"class": "RELIC",
-		"value": 100000,	
-		"text":
-		{
-			"name": "Ultimate Shield",
-			"description": "Increases hero's attack and defence by 12 each",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 100000,
+		"text" : {
+			"name" : "Ultimate Shield",
+			"description" : "Increases hero's attack and defence by 12 each",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "ushield44.bmp",
-			"map": "ushield.def",
+		"graphics" : {
+			"image" : "ushield44.bmp",
+			"map" : "ushield.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"attack" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "attack",
-				"val": 12
+		"bonuses" : {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 12
 			},
-			"defence" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "defence",
-				"val": 12
-			}			
+			"defence" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 12
+			}
 		}
 	}
 }

@@ -1,29 +1,26 @@
 {
-	"ultimateBook":
-	{
-		"type": ["HERO"],
+	"ultimateBook" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "LEFT_HAND",
-		"class": "RELIC",
-		"value": 100000,	
-		"text":
-		{
-			"name": "Ultimate Book of Knowledge",
-			"description": "Increases the hero's knowledge by 24",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 100000,
+		"text" : {
+			"name" : "Ultimate Book of Knowledge",
+			"description" : "Increases the hero's knowledge by 24",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "ubook44.bmp",
-			"map": "ubook.def",
+		"graphics" : {
+			"image" : "ubook44.bmp",
+			"map" : "ubook.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"knowledge" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "knowledge",
-				"val": 24
+		"bonuses" : {
+			"knowledge" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "knowledge",
+				"val" : 24
 			}
 		}
 	}

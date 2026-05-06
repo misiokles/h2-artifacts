@@ -1,29 +1,26 @@
 {
-	"dragonSword":
-	{
-		"type": ["HERO"],
+	"dragonSword" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "RIGHT_HAND",
-		"class": "RELIC",
-		"value": 7000,	
-		"text":
-		{
-			"name": "Dragon Sword of Dominion",
-			"description": "Increases the hero's Attack by 6.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 7000,
+		"text" : {
+			"name" : "Dragon Sword of Dominion",
+			"description" : "Increases the hero's Attack by 6.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "dsword.bmp",
-			"map": "dsword.def",
+		"graphics" : {
+			"image" : "dsword.bmp",
+			"map" : "dsword.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"attack" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "attack",
-				"val": 6
+		"bonuses" : {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 6
 			}
 		}
 	}

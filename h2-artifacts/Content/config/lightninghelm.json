@@ -1,48 +1,42 @@
 {
-	"lightningHelm":
-	{
-		"type": ["HERO"],
+	"lightningHelm" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "HEAD",
-		"class": "RELIC",
-		"value": 7000,	
-		"text":
-		{
-			"name": "Lightning Helm",
-			"description": "Grants spells of lightnings and halves damage from spells of lightnings.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 7000,
+		"text" : {
+			"name" : "Lightning Helm",
+			"description" : "Grants spells of lightnings and halves damage from spells of lightnings.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "lightninghelm.bmp",
-			"map": "lightninghelm.def",
+		"graphics" : {
+			"image" : "lightninghelm.bmp",
+			"map" : "lightninghelm.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{	
-			"spell1" :
-			{
-				"type": "SPELL",
+		"bonuses" : {
+			"spell1" : {
+				"type" : "SPELL",
 				"subtype" : "spell.lightningBolt",
-				"val": 0
+				"val" : 0
 			},
-			"spell2" :
-			{
-				"type": "SPELL",
+			"spell2" : {
+				"type" : "SPELL",
 				"subtype" : "spell.chainLightning",
-				"val": 0
+				"val" : 0
 			},
-			"lightningBolt" :
-			{
-			"type": "MORE_DAMAGE_FROM_SPELL",
-			"subtype" : "spell.lightningBolt",
-			"val" : -50
+			"lightningBolt" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.lightningBolt",
+				"val" : -50
 			},
-			"chainLightning" :
-			{
-			"type": "MORE_DAMAGE_FROM_SPELL",
-			"subtype" : "spell.chainLightning",
-			"val" : -50
-			}				
+			"chainLightning" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.chainLightning",
+				"val" : -50
+			}
 		}
 	}
 }

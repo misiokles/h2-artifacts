@@ -1,29 +1,26 @@
 {
-	"helmetofAnduran":
-	{
-		"type": ["HERO"],
+	"helmetofAnduran" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "HEAD",
-		"class": "RELIC",
-		"value": 20000,	
-		"text":
-		{
-			"name": "Helmet of Anduran",
-			"description": "Increases the hero's Spell Power by 10.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 20000,
+		"text" : {
+			"name" : "Helmet of Anduran",
+			"description" : "Increases the hero's Spell Power by 10.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "helmetofanduran.bmp",
-			"map": "helmetofanduran.def",
+		"graphics" : {
+			"image" : "helmetofanduran.bmp",
+			"map" : "helmetofanduran.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"spellpower" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "spellpower",
-				"val": 10
+		"bonuses" : {
+			"spellpower" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "spellpower",
+				"val" : 10
 			}
 		}
 	}

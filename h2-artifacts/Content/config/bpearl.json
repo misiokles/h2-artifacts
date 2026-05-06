@@ -1,35 +1,31 @@
 {
-	"blackPearl":
-	{
-		"type": ["HERO"],
+	"blackPearl" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
-		"class": "RELIC",
-		"value": 10000,	
-		"text":
-		{
-			"name": "Black Pearl",
-			"description": "Increases hero's power and knowledge by 4 each.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 10000,
+		"text" : {
+			"name" : "Black Pearl",
+			"description" : "Increases hero's power and knowledge by 4 each.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "bpearl.bmp",
-			"map": "blackpearl.def",
+		"graphics" : {
+			"image" : "bpearl.bmp",
+			"map" : "blackpearl.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"spellpower" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "spellpower",
-				"val": 4
+		"bonuses" : {
+			"spellpower" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "spellpower",
+				"val" : 4
 			},
-			"knowledge" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "knowledge",
-				"val": 4
+			"knowledge" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "knowledge",
+				"val" : 4
 			}
 		}
 	}

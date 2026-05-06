@@ -1,35 +1,31 @@
 {
-	"spikedShield":
-	{
-		"type": ["HERO"],
+	"spikedShield" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "LEFT_HAND",
-		"class": "RELIC",
-		"value": 10000,	
-		"text":
-		{
-			"name": "Spiked Shield",
-			"description": "Increases hero's attack and defence by 4 each.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 10000,
+		"text" : {
+			"name" : "Spiked Shield",
+			"description" : "Increases hero's attack and defence by 4 each.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "spikedshield.bmp",
-			"map": "spikedshield.def",
+		"graphics" : {
+			"image" : "spikedshield.bmp",
+			"map" : "spikedshield.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"attack" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "attack",
-				"val": 4
+		"bonuses" : {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 4
 			},
-			"defence" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "defence",
-				"val": 4
+			"defence" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 4
 			}
 		}
 	}

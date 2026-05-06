@@ -1,29 +1,26 @@
 {
-	"thunderMace":
-	{
-		"type": ["HERO"],
+	"thunderMace" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "RIGHT_HAND",
-		"class": "MINOR",
-		"value": 3000,	
-		"text":
-		{
-			"name": "Thunder Mace of Dominion",
-			"description": "Increases the hero's Attack by 2",
-			"event": ""
+		"class" : "MINOR",
+		"value" : 3000,
+		"text" : {
+			"name" : "Thunder Mace of Dominion",
+			"description" : "Increases the hero's Attack by 2",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "thundermace.bmp",
-			"map": "thundermace.def",
+		"graphics" : {
+			"image" : "thundermace.bmp",
+			"map" : "thundermace.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"attack" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "attack",
-				"val": 2
+		"bonuses" : {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 2
 			}
 		}
 	}

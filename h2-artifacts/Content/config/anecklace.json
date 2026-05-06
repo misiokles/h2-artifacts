@@ -1,29 +1,26 @@
 {
-	"arcaneNecklace":
-	{
-		"type": ["HERO"],
+	"arcaneNecklace" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "NECK",
-		"class": "RELIC",
-		"value": 8000,	
-		"text":
-		{
-			"name": "Arcane Necklace of Magic",
-			"description": "Increases the hero's spell power by 8.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 8000,
+		"text" : {
+			"name" : "Arcane Necklace of Magic",
+			"description" : "Increases the hero's spell power by 8.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "anecklace.bmp",
-			"map": "arcanenecklace.def",
+		"graphics" : {
+			"image" : "anecklace.bmp",
+			"map" : "arcanenecklace.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"spellpower" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "spellpower",
-				"val": 8
+		"bonuses" : {
+			"spellpower" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "spellpower",
+				"val" : 8
 			}
 		}
 	}

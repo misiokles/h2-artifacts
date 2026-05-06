@@ -1,30 +1,27 @@
 {
-	"stealthShield":
-	{
-		"type": ["HERO"],
+	"stealthShield" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "LEFT_HAND",
-		"class": "MAJOR",
-		"value": 5000,	
-		"text":
-		{
-			"name": "Stealth Shield of Protection",
-			"description": "Increases the hero's defence by 4.",
-			"event": ""
+		"class" : "MAJOR",
+		"value" : 5000,
+		"text" : {
+			"name" : "Stealth Shield of Protection",
+			"description" : "Increases the hero's defence by 4.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "sshield.bmp",
-			"map": "sshield.def",
+		"graphics" : {
+			"image" : "sshield.bmp",
+			"map" : "sshield.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"defense" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "defence",
-				"val": 4
-			}	
+		"bonuses" : {
+			"defense" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 4
+			}
 		}
 	}
 }

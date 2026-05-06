@@ -1,29 +1,26 @@
 {
-	"ultimateSword":
-	{
-		"type": ["HERO"],
+	"ultimateSword" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "RIGHT_HAND",
-		"class": "RELIC",
-		"value": 100000,	
-		"text":
-		{
-			"name": "Ultimate Sword of Dominion",
-			"description": "Increases the hero's Attack by 24",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 100000,
+		"text" : {
+			"name" : "Ultimate Sword of Dominion",
+			"description" : "Increases the hero's Attack by 24",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "usword44.bmp",
-			"map": "usword.def",
+		"graphics" : {
+			"image" : "usword44.bmp",
+			"map" : "usword.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"attack" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "attack",
-				"val": 24
+		"bonuses" : {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 24
 			}
 		}
 	}

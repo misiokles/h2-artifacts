@@ -1,29 +1,26 @@
 {
-	"defenderHelm":
-	{
-		"type": ["HERO"],
+	"defenderHelm" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "HEAD",
-		"class": "MINOR",
-		"value": 3000,	
-		"text":
-		{
-			"name": "Defender Helm of Protection",
-			"description": "Increases the hero's defence by 2.",
-			"event": ""
+		"class" : "MINOR",
+		"value" : 3000,
+		"text" : {
+			"name" : "Defender Helm of Protection",
+			"description" : "Increases the hero's defence by 2.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "defenderhelm.bmp",
-			"map": "defenderhelm.def",
+		"graphics" : {
+			"image" : "defenderhelm.bmp",
+			"map" : "defenderhelm.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"defense" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "defence",
-				"val": 2
+		"bonuses" : {
+			"defense" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 2
 			}
 		}
 	}

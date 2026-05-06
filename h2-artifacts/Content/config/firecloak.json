@@ -1,54 +1,47 @@
 {
-	"fireCloak":
-	{
-		"type": ["HERO"],
+	"fireCloak" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "SHOULDERS",
-		"class": "RELIC",
-		"value": 7000,	
-		"text":
-		{
-			"name": "Fire Cloak",
-			"description": "Halves damage from fire spells.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 7000,
+		"text" : {
+			"name" : "Fire Cloak",
+			"description" : "Halves damage from fire spells.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "firecloak.bmp",
-			"map": "firecloak.def",
+		"graphics" : {
+			"image" : "firecloak.bmp",
+			"map" : "firecloak.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"landmine" :
-			{
-			"type": "MORE_DAMAGE_FROM_SPELL",
-			"subtype" : "spell.landMine",
-			"val" : -50
-			},	
-			"firewall" : 			
-			{
-			"type": "MORE_DAMAGE_FROM_SPELL",
-			"subtype" : "spell.fireWall",
-			"val" : -50
+		"bonuses" : {
+			"landmine" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.landMine",
+				"val" : -50
 			},
-			"fireball" :
-			{
-			"type": "MORE_DAMAGE_FROM_SPELL",
-			"subtype" : "spell.fireball",
-			"val" : -50
+			"firewall" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireWall",
+				"val" : -50
 			},
-			"inferno" :
-			{
-			"type": "MORE_DAMAGE_FROM_SPELL",
-			"subtype" : "spell.inferno",
-			"val" : -50
+			"fireball" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.fireball",
+				"val" : -50
 			},
-			"armageddon" :
-			{
-			"type": "MORE_DAMAGE_FROM_SPELL",
-			"subtype" : "spell.armageddon",
-			"val" : -50
-			}	
+			"inferno" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.inferno",
+				"val" : -50
+			},
+			"armageddon" : {
+				"type" : "MORE_DAMAGE_FROM_SPELL",
+				"subtype" : "spell.armageddon",
+				"val" : -50
+			}
 		}
 	}
 }

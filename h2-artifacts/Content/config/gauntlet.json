@@ -1,29 +1,26 @@
 {
-	"armoredGauntlets":
-	{
-		"type": ["HERO"],
+	"armoredGauntlets" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "RIGHT_RING",
-		"class": "MAJOR",
-		"value": 5000,	
-		"text":
-		{
-			"name": "Armored Gauntlets of Protection",
-			"description": "Increases the hero's Defence by 4.",
-			"event": ""
+		"class" : "MAJOR",
+		"value" : 5000,
+		"text" : {
+			"name" : "Armored Gauntlets of Protection",
+			"description" : "Increases the hero's Defence by 4.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "gauntlet.bmp",
-			"map": "gauntlet.def",
+		"graphics" : {
+			"image" : "gauntlet.bmp",
+			"map" : "gauntlet.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"defense" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "defence",
-				"val": 4
+		"bonuses" : {
+			"defense" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 4
 			}
 		}
 	}

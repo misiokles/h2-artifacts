@@ -1,29 +1,26 @@
 {
-	"mage'sRing":
-	{
-		"type": ["HERO"],
+	"mage'sRing" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "RIGHT_RING",
-		"class": "RELIC",
-		"value": 5000,	
-		"text":
-		{
-			"name": "Mage's Ring of Power",
-			"description": "Increases the hero's spell power by 4.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 5000,
+		"text" : {
+			"name" : "Mage's Ring of Power",
+			"description" : "Increases the hero's spell power by 4.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "mring.bmp",
-			"map": "mring.def",
+		"graphics" : {
+			"image" : "mring.bmp",
+			"map" : "mring.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"spellpower" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "spellpower",
-				"val": 4
+		"bonuses" : {
+			"spellpower" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "spellpower",
+				"val" : 4
 			}
 		}
 	}

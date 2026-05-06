@@ -1,29 +1,26 @@
 {
-	"superiorScroll":
-	{
-		"type": ["HERO"],
+	"superiorScroll" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
-		"class": "RELIC",
-		"value": 12000,	
-		"text":
-		{
-			"name": "Superior Scroll Of Knowledge",
-			"description": "Increases the hero's knowledge by 8.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 12000,
+		"text" : {
+			"name" : "Superior Scroll Of Knowledge",
+			"description" : "Increases the hero's knowledge by 8.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "superiorscroll.bmp",
-			"map": "superiorscroll.def",
+		"graphics" : {
+			"image" : "superiorscroll.bmp",
+			"map" : "superiorscroll.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"knowledge" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "knowledge",
-				"val": 8
+		"bonuses" : {
+			"knowledge" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "knowledge",
+				"val" : 8
 			}
 		}
 	}

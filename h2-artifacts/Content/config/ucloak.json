@@ -1,29 +1,26 @@
 {
-	"ultimateCloak":
-	{
-		"type": ["HERO"],
+	"ultimateCloak" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "SHOULDERS",
-		"class": "RELIC",
-		"value": 100000,	
-		"text":
-		{
-			"name": "Ultimate Cloak of Protection",
-			"description": "Increases the hero's defence by 24",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 100000,
+		"text" : {
+			"name" : "Ultimate Cloak of Protection",
+			"description" : "Increases the hero's defence by 24",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "ucloak44.bmp",
-			"map": "ucloak.def",
+		"graphics" : {
+			"image" : "ucloak44.bmp",
+			"map" : "ucloak.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"defence" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "defence",
-				"val": 24
+		"bonuses" : {
+			"defence" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 24
 			}
 		}
 	}

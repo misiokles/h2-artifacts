@@ -1,26 +1,23 @@
 {
-	"astrolabe":
-	{
-		"type": ["HERO"],
+	"astrolabe" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
-		"class": "RELIC",
-		"value": 5000,	
-		"text":
-		{
-			"name": "Sailor's Astrolabe of Mobility",
-			"description": "Increases your movement on sea.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 5000,
+		"text" : {
+			"name" : "Sailor's Astrolabe of Mobility",
+			"description" : "Increases your movement on sea.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "astrolabe.bmp",
-			"map": "astrolabe.def",
+		"graphics" : {
+			"image" : "astrolabe.bmp",
+			"map" : "astrolabe.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"land" :
-			{
+		"bonuses" : {
+			"land" : {
 				"subtype" : "heroMovementLand",
 				"type" : "MOVEMENT",
 				"val" : 600,

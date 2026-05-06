@@ -1,29 +1,26 @@
 {
-	"foremostScroll":
-	{
-		"type": ["HERO"],
+	"foremostScroll" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
-		"class": "RELIC",
-		"value": 15000,	
-		"text":
-		{
-			"name": "Foremost Scroll Of Knowledge",
-			"description": "Increases the hero's knowledge by 10.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 15000,
+		"text" : {
+			"name" : "Foremost Scroll Of Knowledge",
+			"description" : "Increases the hero's knowledge by 10.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "foremostscroll.bmp",
-			"map": "foremostscroll.def",
+		"graphics" : {
+			"image" : "foremostscroll.bmp",
+			"map" : "foremostscroll.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"knowledge" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "knowledge",
-				"val": 10
+		"bonuses" : {
+			"knowledge" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "knowledge",
+				"val" : 10
 			}
 		}
 	}

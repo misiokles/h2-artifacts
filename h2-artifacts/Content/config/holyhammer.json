@@ -1,29 +1,26 @@
 {
-	"holyHammer":
-	{
-		"type": ["HERO"],
+	"holyHammer" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "RIGHT_HAND",
-		"class": "RELIC",
-		"value": 20000,	
-		"text":
-		{
-			"name": "Holy Hammer",
-			"description": "Increases the hero's Attack by 10.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 20000,
+		"text" : {
+			"name" : "Holy Hammer",
+			"description" : "Increases the hero's Attack by 10.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "hammer.bmp",
-			"map": "holyhammer.def",
+		"graphics" : {
+			"image" : "hammer.bmp",
+			"map" : "holyhammer.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"attack" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "attack",
-				"val": 10
+		"bonuses" : {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 10
 			}
 		}
 	}

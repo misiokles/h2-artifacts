@@ -1,35 +1,31 @@
 {
-	"whitePearl":
-	{
-		"type": ["HERO"],
+	"whitePearl" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
-		"class": "RELIC",
-		"value": 5000,	
-		"text":
-		{
-			"name": "White Pearl",
-			"description": "Increases hero's power and knowledge by 2 each",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 5000,
+		"text" : {
+			"name" : "White Pearl",
+			"description" : "Increases hero's power and knowledge by 2 each",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "wpearl.bmp",
-			"map": "whitepearl.def",
+		"graphics" : {
+			"image" : "wpearl.bmp",
+			"map" : "whitepearl.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"spellpower" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "spellpower",
-				"val": 2
+		"bonuses" : {
+			"spellpower" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "spellpower",
+				"val" : 2
 			},
-			"knowledge" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "knowledge",
-				"val": 2
+			"knowledge" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "knowledge",
+				"val" : 2
 			}
 		}
 	}

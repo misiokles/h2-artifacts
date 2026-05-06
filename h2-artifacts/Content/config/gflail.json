@@ -1,29 +1,26 @@
 {
-	"giantFlail":
-	{
-		"type": ["HERO"],
+	"giantFlail" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "RIGHT_HAND",
-		"class": "MINOR",
-		"value": 3000,	
-		"text":
-		{
-			"name": "Giant Flail of Dominion",
-			"description": "Increases the hero's Attack by 2.",
-			"event": ""
+		"class" : "MINOR",
+		"value" : 3000,
+		"text" : {
+			"name" : "Giant Flail of Dominion",
+			"description" : "Increases the hero's Attack by 2.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "gflail.bmp",
-			"map": "gflail.def",
+		"graphics" : {
+			"image" : "gflail.bmp",
+			"map" : "gflail.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"attack" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "attack",
-				"val": 2
+		"bonuses" : {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 2
 			}
 		}
 	}

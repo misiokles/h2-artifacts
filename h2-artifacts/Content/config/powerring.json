@@ -1,28 +1,25 @@
 {
-	"powerRing":
-	{
-		"type": ["HERO"],
+	"powerRing" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "RIGHT_RING",
-		"class": "RELIC",
-		"value": 10000,	
-		"text":
-		{
-			"name": "Power Ring",
-			"description": "Returns 10 extra spell points per turn to your hero.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 10000,
+		"text" : {
+			"name" : "Power Ring",
+			"description" : "Returns 10 extra spell points per turn to your hero.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "pring.bmp",
-			"map": "powerring.def",
+		"graphics" : {
+			"image" : "pring.bmp",
+			"map" : "powerring.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"manaRegen" :
-			{
-				"type": "MANA_REGENERATION",
-				"val": 10
+		"bonuses" : {
+			"manaRegen" : {
+				"type" : "MANA_REGENERATION",
+				"val" : 10
 			}
 		}
 	}

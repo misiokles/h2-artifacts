@@ -1,35 +1,31 @@
 {
-	"evercoldIcicle":
-	{
-		"type": ["HERO"],
+	"evercoldIcicle" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "MISC",
-		"class": "RELIC",
-		"value": 10000,	
-		"text":
-		{
-			"name": "Evercold Icicle",
-			"description": "Ice spells do 50% more damage.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 10000,
+		"text" : {
+			"name" : "Evercold Icicle",
+			"description" : "Ice spells do 50% more damage.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "evercoldicicle.bmp",
-			"map": "evercoldicicle.def",
+		"graphics" : {
+			"image" : "evercoldicicle.bmp",
+			"map" : "evercoldicicle.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"icebolt" : 
-			{
-			"type": "SPECIFIC_SPELL_DAMAGE",
-			"subtype": "spell.iceBolt",
-			"val": 50			
+		"bonuses" : {
+			"icebolt" : {
+				"type" : "SPECIFIC_SPELL_DAMAGE",
+				"subtype" : "spell.iceBolt",
+				"val" : 50
 			},
-			"frostring" :
-			{
-			"type": "SPECIFIC_SPELL_DAMAGE",
-			"subtype": "spell.frostRing",
-			"val": 50			
+			"frostring" : {
+				"type" : "SPECIFIC_SPELL_DAMAGE",
+				"subtype" : "spell.frostRing",
+				"val" : 50
 			}
 		}
 	}

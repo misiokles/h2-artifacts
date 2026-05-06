@@ -1,35 +1,31 @@
 {
-	"h2swordBreaker":
-	{
-		"type": ["HERO"],
+	"h2swordBreaker" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "RIGHT_HAND",
-		"class": "RELIC",
-		"value": 20000,	
-		"text":
-		{
-			"name": "Sword Braker",
-			"description": "Increases hero's attack by 2 and defence by 8.",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 20000,
+		"text" : {
+			"name" : "Sword Braker",
+			"description" : "Increases hero's attack by 2 and defence by 8.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "swordbreaker.bmp",
-			"map": "swordbreaker.def",
+		"graphics" : {
+			"image" : "swordbreaker.bmp",
+			"map" : "swordbreaker.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"attack" : 
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "attack",
-				"val": 2
+		"bonuses" : {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 2
 			},
-			"defence" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "defence",
-				"val": 8
+			"defence" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 8
 			}
 		}
 	}

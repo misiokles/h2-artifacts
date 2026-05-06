@@ -1,29 +1,26 @@
 {
-	"witchBroach":
-	{
-		"type": ["HERO"],
+	"witchBroach" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "NECK",
-		"class": "RELIC",
-		"value": 7000,	
-		"text":
-		{
-			"name": "Witch's Broach of Magic",
-			"description": "Increases the hero's spell power by 6",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 7000,
+		"text" : {
+			"name" : "Witch's Broach of Magic",
+			"description" : "Increases the hero's spell power by 6",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "wbroach.bmp",
-			"map": "wbroach.def",
+		"graphics" : {
+			"image" : "wbroach.bmp",
+			"map" : "wbroach.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"spellpower" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "spellpower",
-				"val": 6
+		"bonuses" : {
+			"spellpower" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "spellpower",
+				"val" : 6
 			}
 		}
 	}

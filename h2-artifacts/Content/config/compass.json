@@ -1,33 +1,29 @@
 {
-	"trueCompass":
-	{
-		"type": ["HERO"],
+	"trueCompass" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "LEFT_RING",
-		"class": "MAJOR",
-		"value": 5000,	
-		"text":
-		{
-			"name": "True Compass of Mobility",
-			"description": "Increases your movement on land and sea.",
-			"event": ""
+		"class" : "MAJOR",
+		"value" : 5000,
+		"text" : {
+			"name" : "True Compass of Mobility",
+			"description" : "Increases your movement on land and sea.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "compass.bmp",
-			"map": "compass.def",
+		"graphics" : {
+			"image" : "compass.bmp",
+			"map" : "compass.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"sea" :
-			{
+		"bonuses" : {
+			"sea" : {
 				"subtype" : "heroMovementSea",
 				"type" : "MOVEMENT",
 				"val" : 600,
 				"valueType" : "ADDITIVE_VALUE"
 			},
-			"land" :
-			{
+			"land" : {
 				"subtype" : "heroMovementLand",
 				"type" : "MOVEMENT",
 				"val" : 600,

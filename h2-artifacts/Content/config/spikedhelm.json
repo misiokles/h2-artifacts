@@ -1,35 +1,31 @@
 {
-	"spikedHelm":
-	{
-		"type": ["HERO"],
+	"spikedHelm" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "HEAD",
-		"class": "MAJOR",
-		"value": 5000,	
-		"text":
-		{
-			"name": "Spiked Helm",
-			"description": "Increases hero's attack and defence by 2 each.",
-			"event": ""
+		"class" : "MAJOR",
+		"value" : 5000,
+		"text" : {
+			"name" : "Spiked Helm",
+			"description" : "Increases hero's attack and defence by 2 each.",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "spikedhelm.bmp",
-			"map": "spikedhelm.def",
+		"graphics" : {
+			"image" : "spikedhelm.bmp",
+			"map" : "spikedhelm.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"attack" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "attack",
-				"val": 2
+		"bonuses" : {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 2
 			},
-			"defence" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "defence",
-				"val": 2
+			"defence" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 2
 			}
 		}
 	}

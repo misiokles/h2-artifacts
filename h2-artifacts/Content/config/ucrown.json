@@ -1,47 +1,41 @@
 {
-	"ultimateCrown":
-	{
-		"type": ["HERO"],
+	"ultimateCrown" : {
+		"type" : [
+			"HERO"
+		],
 		"slot" : "HEAD",
-		"class": "RELIC",
-		"value": 100000,	
-		"text":
-		{
-			"name": "Ultimate Crown",
-			"description": "Increases hero's all primary skills by 8 each",
-			"event": ""
+		"class" : "RELIC",
+		"value" : 100000,
+		"text" : {
+			"name" : "Ultimate Crown",
+			"description" : "Increases hero's all primary skills by 8 each",
+			"event" : ""
 		},
-		"graphics":
-		{
-			"image": "ucrown44.bmp",
-			"map": "ucrown.def",
+		"graphics" : {
+			"image" : "ucrown44.bmp",
+			"map" : "ucrown.def",
 			"scenarioBonus" : "blank.png"
 		},
-		"bonuses":
-		{
-			"attack" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "attack",
-				"val": 8
+		"bonuses" : {
+			"attack" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "attack",
+				"val" : 8
 			},
-			"defense" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "defence",
-				"val": 8
+			"defense" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "defence",
+				"val" : 8
 			},
-			"spellpower" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "spellpower",
-				"val": 8
+			"spellpower" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "spellpower",
+				"val" : 8
 			},
-			"knowledge" :
-			{
-				"type": "PRIMARY_SKILL",
-				"subtype": "knowledge",
-				"val": 8
+			"knowledge" : {
+				"type" : "PRIMARY_SKILL",
+				"subtype" : "knowledge",
+				"val" : 8
 			}
 		}
 	}
